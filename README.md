@@ -12,7 +12,7 @@ It allows you toperform following experiments-
 
 ## Setup
 Tested for Python 3.6.7
-1. Create a virtual environment
+1. Create a virtual environment (preferrably using conda)
 2. `pip install -r requirement.txt`
 3. Instal `innvestigate==1.0.6` manually since older versions were not available on PyPi. 
 
