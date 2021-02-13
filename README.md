@@ -1,6 +1,6 @@
 # basic_perturbation_experiments_xai
 This repo contains the code for the preliminary experiments for our project - [SAM](https://anhnguyen.me/project/sam/ "SAM"). 
-It allows you toperform following experiments- 
+It allows you to perform following experiments- 
 - Visualize the various heatmaps for a given image and a particular model.
 - Make a particular row/coloumn or a range of rows/colouns black (zero pixels).
 - Flip the image vertically/horizontally.
