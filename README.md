@@ -9,6 +9,8 @@ It allows you to perform following experiments-
 - Generate heatmap for a label of users choice (options - original, predicted, topN, bottomN or random list of labels).
     - (Here topN/bottomN means top/botton `N` predicyed labels.)
 
+## Takeaways
+These experients confirmed our belief that there is definitely some problems with the current heatmap methods. But it was hard to figure out the exact problems due of the complexity of the ImageNet images. Thus, we decided to create a toy dataset and a model to better understand the workings and issues pertaining to the heatmap methods. The code of our toy experiment, **Center Pixel Model** can be found [here](https://github.com/bnaman50/center-pixel-model).
 
 ## Setup
 Tested for Python 3.6.7
@@ -25,5 +27,4 @@ Tested for Python 3.6.7
 This is how the resultant plots will look like. 
 ![alt text](/results/result.png?raw=true "Sample Output")
 
-## Takeaways
-These experients confirmed our belief that there is definitely some problems with the current heatmap methods. But it was hard to figure out the exact problems due of the complexity of the ImageNet images. Thus, we decided to create a toy dataset and a model to better understand the workings and issues pertaining to the heatmap methods. The code of our toy experiment, **Center Pixel Model** can be found [here](https://github.com/bnaman50/center-pixel-model).
+
